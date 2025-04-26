@@ -1,52 +1,59 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="zh-Hant">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>龍腳本網站</title>
+    <title>GOD MAX</title>
     <style>
         body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-image: url('https://sticweb.tw/wp-content/uploads/2022/08/%E8%BF%B7%E4%BD%A0%E4%B8%96%E7%95%8C%E4%BB%A3%E5%84%B2%E5%80%BC.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
             font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            text-align: center;
-            padding: 20px;
+            margin: 0;
+        }
+        .subtitle {
+            font-size: 24px;
+            color: white;
+            text-shadow: 2px 2px 4px #000;
+            margin-bottom: 10px;
         }
         h1 {
-            color: #333;
+            margin-bottom: 20px;
+            color: white;
+            text-shadow: 2px 2px 4px #000;
         }
-        p {
+        .download-link {
+            text-decoration: none;
+        }
+        .download-button {
+            padding: 10px 20px;
             font-size: 18px;
-            color: #555;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
         }
-        pre {
-            background-color: #eee;
-            padding: 10px;
-            border-radius: 5px;
-            font-size: 16px;
-            overflow-x: auto;
-            white-space: pre-wrap; /* 讓代碼換行 */
-            word-wrap: break-word; /* 讓代碼在過長時自動換行 */
-            margin: 20px 0;
+        .download-button:hover {
+            background-color: #45a049;
         }
     </style>
 </head>
 <body>
-    <h1>龍腳本網站</h1>
-    
-    <h2>腳本1: OP擊飛所有人</h2>
-    <pre id="script1">
-loadstring(game:HttpGet("https://raw.githubusercontent.com/ddhyhf/114514/refs/heads/main/114514QWE"))()
-    </pre>
-    
-    <h2>腳本2: sans腳本</h2>
-    <pre id="script2">
-loadstring(game:HttpGet('https://raw.githubusercontent.com/IncognitoScripts/SlapBattles/refs/heads/main/SansGloveFinished'))()
-    </pre>
 
-    <h2>腳本3: 隱身腳本</h2>
-    <pre id="script3">
-loadstring(game:HttpGet("https://raw.githubusercontent.com/ddhyhf/114514/refs/heads/main/0011"))()
-    </pre>
+    <div class="subtitle">最垃圾的密鑰系統</div>
+    <h1>GOD MAX CT</h1>
+    <a class="download-link" href="https://drive.usercontent.google.com/u/0/uc?id=1py3y2RcmRQcukYz2hMrY6xZmYDAMKM-f&export=download" target="_blank">
+        <button class="download-button">下載</button>
+    </a>
 
 </body>
 </html>
